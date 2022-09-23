@@ -1,0 +1,21 @@
+{
+  "name": "apiproject",
+  "version": "1.0.0",
+  "description": "Primera app solo",
+  "main": "index.js",
+  "scripts": {
+    "desarrollo": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "Gonzalo Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
